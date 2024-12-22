@@ -18,15 +18,25 @@
     width: 100%;
     height: 20%;
 }
-
-.bg-cursos{
+/* estilizando background do fundo da logo */
+.bg-header{
     position: absolute;
-    margin-left: 50px;
-    width: 100px;
-    height: 100px;
-    background-color: var(--bg-cursos);
+    width: 100%;
+    height: 100%;
 }
 
+.background-header{
+    width: 100%;
+    height: 100%;
+}
+/* estilizando as logos */
+.bg-cursos{
+    position: absolute; 
+    margin-left: 50px;
+    width: auto; 
+    height: 150px;
+}
+/* estilizando a logo da oferta */
 .offer{
     position: absolute;
     left: 30%;
@@ -36,4 +46,5 @@
     display: block;
     width: auto;
     height: 250px;
+    opacity: 90%;
 }
