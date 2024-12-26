@@ -1,5 +1,6 @@
 :root{
     --bg-cursos: linear-gradient(90deg, #333, #fff, #333);
     --master: #000;
-    --button: #3d3d3d;
+    --button: #6a6868;
+    --branco: #fff;
 }
