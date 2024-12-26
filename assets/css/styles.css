@@ -1,4 +1,5 @@
 /* reset */
+/* Dev by Vitor Henrique */
 *{
     margin: 0px;
     padding: 0px;
@@ -17,7 +18,7 @@
     z-index: 1;
     position: relative;
     width: 100%;
-    height: 20%;
+    height: 10%;
 }
 /* estilizando background do fundo da logo */
 .bg-header{
@@ -29,7 +30,7 @@
 
 .background-header{
     width: 100%;
-    height: 100%;
+    height: 200px;
 }
 /* estilizando as logos */
 .bg-cursos{
@@ -40,15 +41,18 @@
 }
 /* estilizando a logo da oferta */
 .offer{
+    z-index: 1;
     position: absolute;
     left: 30%;
     bottom: -50%;
 }
 
 .logo-offer{
+    position: absolute;
+    bottom: -100px;
     display: block;
     width: auto;
-    height: 250px;
+    height: 240px;
     opacity: 90%;
 }
 
@@ -62,6 +66,7 @@
 
     /* criando e estilizando o botão de sandwich*/
 .button-sandwich{
+    top: 100px;
     position: absolute;
     left: 95%;
     display: flex;
@@ -88,27 +93,36 @@
     /* começo setas */
 .arrow-right{
     position: absolute;
-    left: 75%;
-    bottom: 45%;
+    left: 85%;
+    bottom: 25%;
 }
 
 .arrow-left{
     position: absolute;
-    right: 75%;
-    bottom: 45%;
+    right: 85%;
+    bottom: 25%;
 }
+
 .right, .left{
     width: 35px;
     height: 35px;
     cursor: pointer;
 }
+    /* invertendo o lado da seta */
+.left{
+    transform: scaleX(-1);
+}
+
+.button-right, .button-left{
+    background: none;
+    border-style: none;
+}
     /* fim setas */
     /* estilizando o background */
 
 .carrosel-background{
-    z-index: -1;
     width: 100%;
-    height: 130%;
+    height: 149.25%;
 }
 
 .background{
@@ -116,5 +130,29 @@
     width: 100%;
     height: 100%;
 }
+
     /* fim background */
     /* começo botão de comprar */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.container-buy{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    z-index: 1;
+    width: 100px;
+    height: 50px;
+}
+
+.button-buy{
+    width: 200px;
+    height: 60px;
+    font-size: large;
+    background-color: var(--button-buy);
+    border-style: none;
+    cursor: pointer;
+}

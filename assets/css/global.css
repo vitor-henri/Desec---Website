@@ -1,6 +1,8 @@
+/* paleta de cor */
 :root{
     --bg-cursos: linear-gradient(90deg, #333, #fff, #333);
     --master: #000;
     --button: #6a6868;
     --branco: #fff;
+    --button-buy: #eeff00;
 }
